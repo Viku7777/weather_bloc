@@ -23,7 +23,7 @@ jobs:
           flutter-version: "3.16.7"
       - run: flutter pub get
       - run: flutter build apk
-      - run: flutter build apk --debug --split-per-abi
+      # - run: flutter build apk --debug --split-per-abi
       # - run: |
       #     flutter build ios --no-codesign
       #     cd build/ios/iphoneos

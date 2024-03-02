@@ -1,20 +1,18 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hive/hive.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:weather_app/helper/app_functions.dart';
 import 'package:weather_app/helper/btns.dart';
 import 'package:weather_app/helper/colors.dart';
-import 'package:weather_app/helper/hive_box.dart';
 import 'package:weather_app/helper/textstyle.dart';
-import 'package:weather_app/model/user_model.dart';
 import 'package:weather_app/screen/component/background_component.dart';
 import 'package:weather_app/screen/component/custom_textfiled.dart';
 import 'package:weather_app/screen/view/auth/login/bloc/login_bloc_bloc.dart';
-import 'package:weather_app/screen/view/auth/signup/bloc/signup_bloc.dart';
 import 'package:weather_app/screen/view/auth/forgot/view/forgot_password_view.dart';
 import 'package:weather_app/screen/view/home/view/home_view.dart';
 import 'package:weather_app/screen/view/auth/signup/view/sign_up_view.dart';
