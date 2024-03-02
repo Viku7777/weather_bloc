@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         )
       ],
       child: MaterialApp(
-        title: 'Weather',
+        title: 'See Weather',
         routes: routes,
         debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
